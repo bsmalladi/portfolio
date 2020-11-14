@@ -41,6 +41,11 @@ header {
   color: inherit;
 }
 
+.nava2 {
+  text-decoration: underline;
+  color: inherit;
+}
+
 .nava-resume {
   text-decoration: inherit;
   color: inherit;
@@ -68,10 +73,14 @@ hero
   padding-bottom: 10rem;
 }
 
-.profPic {
-  max-width: 5%;
+.heroflex {
+  display: flex;
+  justify-content: center;
+}
+
+.logoDark {
+  max-width: 10%;
   height: auto;
-  padding-left: 30rem;
 }
 
 .hero-text {
@@ -90,6 +99,11 @@ hero
   padding-bottom: 15rem;
 }
 
+.section-header {
+  font-size: 4.5rem;
+  color: #f79256;
+}
+
 /*
 bio
 */
@@ -98,9 +112,10 @@ bio
   margin: auto;
   color: #ca85ff;
   font-size: 2.5rem;
+  padding-bottom: 5rem;
 }
 
-.bio-emph {
+.emph {
   /*color: #00efcd;*/
   font-weight: bold;
 }
@@ -136,6 +151,85 @@ bio
 }
 
 /*
+projects
+*/
+.projects {
+  width: 60%;
+  margin: auto;
+  color: #ca85ff;
+  font-size: 2.5rem;
+  padding-bottom: 10rem;
+  text-align: right;
+}
+
+.project-info {
+  padding-top: 3rem;
+}
+
+.single-project {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+
+.project-pic {
+  padding-right: 10rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.proj-description {
+  text-align: left;
+}
+
+.proj-head {
+  font-size: 3.5rem;
+  text-decoration: underline;
+  color: inherit;
+  display: block;
+}
+
+.proj-head:hover {
+  color: #f79256;
+}
+
+/*
+experience
+*/
+.experience {
+  width: 60%;
+  margin: auto;
+  color: #ca85ff;
+  font-size: 2.5rem;
+  padding-bottom: 10rem;
+  text-align: right;
+}
+
+/*
+contact
+*/
+.contact {
+  width: 60%;
+  margin: auto;
+  color: #ca85ff;
+  font-size: 2.5rem;
+  padding-bottom: 10rem;
+  text-align: left;
+}
+
+.email {
+  width: 30%;
+}
+
+.button {
+  background-color: #00efcd;
+  color: #2d3142;
+  border: none;
+  border-radius: 3px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+/*
 footer
 */
 footer {
@@ -154,7 +248,7 @@ footer {
   margin-right: 1rem;
 }
 
-.email {
+.email-address {
   text-align: center;
   width: 100%;
   color: #ca85ff;
